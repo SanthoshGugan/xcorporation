@@ -1,0 +1,55 @@
+/*Santhosh*/
+.header{
+	padding: 3% 0;
+	height: 200px;
+	background-color: blue;
+
+	.tabLinks{
+		float: right !important;
+		.tab{
+			display: inline;
+			margin-right: 5%;
+		}
+
+		.tab a{
+			text-decoration: none;
+			color: white;
+			font-weight: 600;
+			text-transform: uppercase;
+			padding: 10px;
+			border: 2px solid transparent;
+
+		}
+
+		.tab a:hover{
+			border: 2px solid white;
+		}
+	}
+}
+
+/*Stephen*/
+/****************************************************************/
+/* Tablet */
+/****************************************************************/
+@media (max-width: 1170px) and (min-width: 991px){
+/*Santhosh*/
+
+/*Stephen*/
+}
+
+/****************************************************************/
+/* Mobile SM */
+/****************************************************************/
+@media (min-width: 751px) and (max-width: 990px){
+/*Santhosh*/
+
+/*Stephen*/
+}
+/****************************************************************/
+/* Mobile XS */
+/****************************************************************/
+@media (max-width: 750px){
+/*Santhosh*/
+
+/*Stephen*/
+}
