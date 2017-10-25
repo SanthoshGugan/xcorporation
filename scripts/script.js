@@ -20,6 +20,15 @@ $(document).ready(function(){
 		headerScroll(window.pageYOffset);
 
 	});
+
+	$('#dropdownMenu1').hover(function() {
+			/* Stuff to do when the mouse enters the element */
+			$("#dropDownMenu").fadeIn(400);
+
+		}, function() {
+			/* Stuff to do when the mouse leaves the element */
+			$("#dropDownMenu").delay(3000).fadeOut(400);			
+	});
 });
 
 

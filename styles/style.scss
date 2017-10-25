@@ -6,6 +6,7 @@
 
 	.tabLinks{
 		float: right !important;
+		position: relative;
 		.tab{
 			display: inline;
 			margin-right: 5%;
@@ -34,6 +35,45 @@
 		.tab a:hover{
 			border: 2px solid white;
 		}
+
+		// Search Drop Down
+		#dropDownMenu{
+			top: 60px !important;
+			right: 15% !important;
+			left: unset !important;
+			width: 315px;
+			border-top: 2px solid black;
+			border-radius: 0;
+		}
+
+		.headSearch{
+			padding: 0 0 0 2%;
+			input{
+				display: inline !important; 
+
+			}
+
+			input{
+				margin-right: -5px;
+				width: 230px !important;
+				border: 2px solid #ccc;
+				border-right: none;
+				box-shadow: none !important;
+				width: 60%;
+			}
+
+			input:focus{
+				border: 2px solid #337ab7;
+			}
+			span{
+				margin-left: 0px;
+				width: 40%;
+				button{
+					margin: -3px 0 0 -2px; 
+				}
+			}
+		}
+
 	}
 }
 .transBg{
