@@ -1,12 +1,18 @@
 /*Santhosh*/
 .header {
   padding: 3% 0;
-  background-color: blue; }
+  background-color: blue;
+  transition: all 1s; }
   .header .tabLinks {
     float: right !important; }
     .header .tabLinks .tab {
       display: inline;
       margin-right: 5%; }
+    .header .tabLinks .tab.feature {
+      margin-right: 2% !important; }
+      .header .tabLinks .tab.feature i {
+        font-size: 0.65em;
+        vertical-align: middle; }
     .header .tabLinks .tab a {
       text-decoration: none;
       color: white;
@@ -17,6 +23,13 @@
       transition: all 0.5s ease-out; }
     .header .tabLinks .tab a:hover {
       border: 2px solid white; }
+
+.transBg {
+  background-color: #333333 !important;
+  padding: 2% 0; }
+
+.mainContent {
+  height: 800px; }
 
 /*Stephen*/
 /****************************************************************/

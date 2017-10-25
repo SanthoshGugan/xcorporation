@@ -2,6 +2,7 @@
 .header{
 	padding: 3% 0;
 	background-color: blue;
+	transition: all 1s;
 
 	.tabLinks{
 		float: right !important;
@@ -9,6 +10,16 @@
 			display: inline;
 			margin-right: 5%;
 		}
+
+		.tab.feature{
+			margin-right: 2% !important;
+
+			i{
+				font-size: 0.65em;
+				vertical-align: middle;
+			}
+		}
+
 
 		.tab a{
 			text-decoration: none;
@@ -24,6 +35,13 @@
 			border: 2px solid white;
 		}
 	}
+}
+.transBg{
+	background-color: #333333 !important;
+	padding: 2% 0;
+}
+.mainContent{
+	height: 800px;
 }
 
 /*Stephen*/
