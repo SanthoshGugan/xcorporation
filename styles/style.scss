@@ -1,7 +1,6 @@
 /*Santhosh*/
 .header{
 	padding: 3% 0;
-	height: 200px;
 	background-color: blue;
 
 	.tabLinks{
@@ -18,7 +17,7 @@
 			text-transform: uppercase;
 			padding: 10px;
 			border: 2px solid transparent;
-
+			transition: all 0.5s ease-out;
 		}
 
 		.tab a:hover{
