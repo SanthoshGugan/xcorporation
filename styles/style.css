@@ -1,22 +1,61 @@
 /*Santhosh*/
 .header {
   padding: 3% 0;
-  height: 200px;
-  background-color: blue; }
+  background-color: blue;
+  transition: all 1s; }
   .header .tabLinks {
-    float: right !important; }
+    float: right !important;
+    position: relative; }
     .header .tabLinks .tab {
       display: inline;
       margin-right: 5%; }
+    .header .tabLinks .tab.feature {
+      margin-right: 2% !important; }
+      .header .tabLinks .tab.feature i {
+        font-size: 0.65em;
+        vertical-align: middle; }
     .header .tabLinks .tab a {
       text-decoration: none;
       color: white;
       font-weight: 600;
       text-transform: uppercase;
       padding: 10px;
-      border: 2px solid transparent; }
+      border: 2px solid transparent;
+      transition: all 0.5s ease-out; }
     .header .tabLinks .tab a:hover {
       border: 2px solid white; }
+    .header .tabLinks #dropDownMenu {
+      top: 60px !important;
+      right: 15% !important;
+      left: unset !important;
+      width: 315px;
+      border-top: 2px solid black;
+      border-radius: 0; }
+    .header .tabLinks .headSearch {
+      padding: 0 0 0 2%; }
+      .header .tabLinks .headSearch input {
+        display: inline !important; }
+      .header .tabLinks .headSearch input {
+        margin-right: -5px;
+        width: 230px !important;
+        border: 2px solid #ccc;
+        border-right: none;
+        box-shadow: none !important;
+        width: 60%; }
+      .header .tabLinks .headSearch input:focus {
+        border: 2px solid #337ab7; }
+      .header .tabLinks .headSearch span {
+        margin-left: 0px;
+        width: 40%; }
+        .header .tabLinks .headSearch span button {
+          margin: -3px 0 0 -2px; }
+
+.transBg {
+  background-color: #333333 !important;
+  padding: 2% 0; }
+
+.mainContent {
+  height: 800px; }
 
 /*Stephen*/
 /****************************************************************/
