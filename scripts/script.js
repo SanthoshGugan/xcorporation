@@ -21,13 +21,29 @@ $(document).ready(function(){
 
 	});
 
+	/*Show search drop down on hover*/
 	$('#dropdownMenu1').hover(function() {
 			/* Stuff to do when the mouse enters the element */
 			$("#dropDownMenu").fadeIn(400);
 
 		}, function() {
 			/* Stuff to do when the mouse leaves the element */
-			$("#dropDownMenu").delay(3000).fadeOut(400);			
+			setTimeout(function(){
+				if(!($('#dropDownMenu input').is(":focus")))
+				{
+					$("#dropDownMenu").fadeOut(400);
+				}
+			},3000);		
+	});
+
+	//fade out search dropdown when hover away
+	$('#dropDownMenu').hover(function(){}, function(){
+		$('#dropDownMenu').fadeOut(400);
+	});
+
+	//sidebar on hamburger
+	$('#hamburger').click(function(event) {
+		$('.mainContent').addClass('moveAway');
 	});
 });
 

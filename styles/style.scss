@@ -73,7 +73,16 @@
 				}
 			}
 		}
+	}
 
+	.icon{	
+		padding: 5% 0;
+		cursor: hand;
+		i{
+		color: white;
+		padding: 15% 0;
+		font-size: 2em;
+		}
 	}
 }
 .transBg{
@@ -82,6 +91,8 @@
 }
 .mainContent{
 	height: 800px;
+	background-color: red;
+	transition: margin 2s;
 }
 
 /*Stephen*/
@@ -99,7 +110,10 @@
 /****************************************************************/
 @media (min-width: 751px) and (max-width: 990px){
 /*Santhosh*/
-
+	.moveAway{
+		margin-left: 250px;
+	}
+	
 /*Stephen*/
 }
 /****************************************************************/
@@ -107,6 +121,8 @@
 /****************************************************************/
 @media (max-width: 750px){
 /*Santhosh*/
-
+	.moveAway{
+		margin-left: 250px;
+	}
 /*Stephen*/
 }

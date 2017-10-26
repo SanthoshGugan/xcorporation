@@ -49,13 +49,22 @@
         width: 40%; }
         .header .tabLinks .headSearch span button {
           margin: -3px 0 0 -2px; }
+  .header .icon {
+    padding: 5% 0;
+    cursor: hand; }
+    .header .icon i {
+      color: white;
+      padding: 15% 0;
+      font-size: 2em; }
 
 .transBg {
   background-color: #333333 !important;
   padding: 2% 0; }
 
 .mainContent {
-  height: 800px; }
+  height: 800px;
+  background-color: red;
+  transition: margin 2s; }
 
 /*Stephen*/
 /****************************************************************/
@@ -69,12 +78,18 @@
 /****************************************************************/
 @media (min-width: 751px) and (max-width: 990px) {
   /*Santhosh*/
+  .moveAway {
+    margin-left: 250px; }
+
   /*Stephen*/ }
 /****************************************************************/
 /* Mobile XS */
 /****************************************************************/
 @media (max-width: 750px) {
   /*Santhosh*/
+  .moveAway {
+    margin-left: 250px; }
+
   /*Stephen*/ }
 
 /*# sourceMappingURL=style.css.map */
